@@ -1727,7 +1727,7 @@
 .cbp-popup-singlePage .cbp-popup-content {
     position:relative;
     z-index:1;
-    margin-top:145px;
+    margin-top:100px;
     max-width:1024px;
     vertical-align:top;
     width:94%
@@ -1809,8 +1809,8 @@
     left:0;
     width:100%;
     z-index:2;
-    height:104px;
-    background-color: #1fa3ba;
+    height:70px;
+    background-color: #000;
 }
 .cbp-popup-singlePage .cbp-popup-navigation {
     position:relative;
@@ -1826,7 +1826,7 @@
     position:absolute;
     right:40px;
     top:0;
-    font:400 14px/104px 'Roboto',sans-serif;
+    font:400 14px/70px 'Roboto',sans-serif;
 }
 @media only screen and (max-width:768px) {
     .cbp-popup-singlePage-counter {
@@ -1862,7 +1862,7 @@
     background:url(../images/cbp-sprite.png) -2px -94px no-repeat;
     width:44px;
     height:44px;
-    top:30px;
+    top:14px;
     left:0;
     margin:auto;
     right:108px
@@ -1886,7 +1886,7 @@
     background:url(../images/cbp-sprite.png) -48px -94px no-repeat;
     width:44px;
     height:44px;
-    top:30px;
+    top:14px;
     right:0;
     margin:auto;
     left:108px
@@ -1910,7 +1910,7 @@
     width:44px;
     margin:auto;
     right:0;
-    top:30px;
+    top:14px;
     left:0
 }
 .cbp-popup-singlePage .cbp-popup-close:hover {
@@ -2036,7 +2036,8 @@
 .cbp-l-project-desc-text {
     font:400 13px/20px 'Roboto',sans-serif;
     color:#555;
-    margin-bottom:20px
+    margin-bottom:20px;
+    text-align: justify;
 }
 .cbp-l-project-details-title {
     border-bottom:1px solid #cdcdcd;
