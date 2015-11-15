@@ -2294,6 +2294,7 @@ blockquote em {
     margin-bottom: 6px;
     margin-top: 12px;
     font-size: 24px;
+    color: #000;
 }
 
 .team-member-pos {
@@ -5703,3 +5704,12 @@ h2.resp-accordion:first-child {
     color: #fff;
 
 }
+
+
+
+/*CUSTOM
+*/
+
+
+
+
